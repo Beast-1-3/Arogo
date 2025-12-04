@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   
-  baseURL: "https://arogo-backend-ia2z.onrender.com",
+  baseURL: "https://arogo-backend-ia2z.onrender.com/api",
   withCredentials: true,
 });
 
