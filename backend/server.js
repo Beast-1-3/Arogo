@@ -38,7 +38,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://arogo-enl7cpjqb-akarsh7376-gmailcoms-projects.vercel.app"],
+    origin: ["http://localhost:5173", "https://arogo-nu.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
